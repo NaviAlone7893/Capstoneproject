@@ -1,11 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-30T01:18:07 IST" name="Default suite" finished-at="2025-10-30T01:18:07 IST" duration-ms="24">
+  <suite started-at="2025-10-30T15:01:10 IST" name="AmazonGridSuite" finished-at="2025-10-30T15:01:19 IST" duration-ms="8877">
     <groups>
     </groups>
-    <test started-at="2025-10-30T01:18:07 IST" name="Default test" finished-at="2025-10-30T01:18:07 IST" duration-ms="24">
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test started-at="2025-10-30T15:01:10 IST" name="ChromeTest" finished-at="2025-10-30T15:01:17 IST" duration-ms="6622">
+      <class name="SeleniumGrid.AmazonGridTest">
+        <test-method signature="openAmazon(java.lang.String)[pri:0, instance:SeleniumGrid.AmazonGridTest@77c2494c]" started-at="2025-10-30T15:01:10 IST" name="openAmazon" finished-at="2025-10-30T15:01:17 IST" duration-ms="6555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAmazon -->
+      </class> <!-- SeleniumGrid.AmazonGridTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-10-30T15:01:10 IST" name="EdgeTest" finished-at="2025-10-30T15:01:18 IST" duration-ms="7423">
+      <class name="SeleniumGrid.AmazonGridTest">
+        <test-method signature="openAmazon(java.lang.String)[pri:0, instance:SeleniumGrid.AmazonGridTest@6a2f6f80]" started-at="2025-10-30T15:01:10 IST" name="openAmazon" finished-at="2025-10-30T15:01:18 IST" duration-ms="7362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAmazon -->
+      </class> <!-- SeleniumGrid.AmazonGridTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2025-10-30T15:01:10 IST" name="FirefoxTest" finished-at="2025-10-30T15:01:19 IST" duration-ms="8877">
+      <class name="SeleniumGrid.AmazonGridTest">
+        <test-method signature="openAmazon(java.lang.String)[pri:0, instance:SeleniumGrid.AmazonGridTest@707194ba]" started-at="2025-10-30T15:01:10 IST" name="openAmazon" finished-at="2025-10-30T15:01:19 IST" duration-ms="8815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAmazon -->
+      </class> <!-- SeleniumGrid.AmazonGridTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- AmazonGridSuite -->
 </testng-results>

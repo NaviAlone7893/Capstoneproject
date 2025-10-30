@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Bstack.Logintest">
+      <class name="SeleniumGrid.AmazonGridTest">
         <methods>
-          <include name="valid"/>
-          <include name="setup"/>
-          <include name="empty"/>
-          <include name="resetAppState"/>
-          <include name="invalid"/>
-          <include name="afterTest"/>
+          <include name="openAmazon"/>
         </methods>
-      </class> <!-- Bstack.Logintest -->
+      </class> <!-- SeleniumGrid.AmazonGridTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
